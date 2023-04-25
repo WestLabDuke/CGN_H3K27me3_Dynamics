@@ -1,0 +1,118 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)
+Annotation Version and Release Date:	PANTHER version 17.0 Released 2022-02-22
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	Mus musculus - REFLIST (21997)	upload_1 (256)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+regulation of neurotransmitter secretion (GO:0046928)	12	3	.14	+	21.48	6.18E-04	1.51E-02
+chemical synaptic transmission, postsynaptic (GO:0099565)	13	3	.15	+	19.83	7.54E-04	1.78E-02
+neurotransmitter transport (GO:0006836)	54	11	.63	+	17.50	1.95E-10	1.97E-08
+regulation of synaptic plasticity (GO:0048167)	25	5	.29	+	17.19	2.18E-05	7.34E-04
+neurotransmitter secretion (GO:0007269)	45	9	.52	+	17.19	1.04E-08	6.99E-07
+signal release from synapse (GO:0099643)	45	9	.52	+	17.19	1.04E-08	6.78E-07
+synaptic vesicle exocytosis (GO:0016079)	31	6	.36	+	16.63	3.77E-06	1.58E-04
+regulation of neurotransmitter levels (GO:0001505)	55	9	.64	+	14.06	4.87E-08	2.45E-06
+synaptic vesicle cycle (GO:0099504)	63	10	.73	+	13.64	1.12E-08	7.11E-07
+vesicle-mediated transport in synapse (GO:0099003)	63	10	.73	+	13.64	1.12E-08	6.91E-07
+dendrite morphogenesis (GO:0048813)	19	3	.22	+	13.57	1.97E-03	4.21E-02
+adherens junction organization (GO:0034332)	26	4	.30	+	13.22	3.71E-04	9.45E-03
+signal release (GO:0023061)	74	11	.86	+	12.77	3.79E-09	2.81E-07
+potassium ion transmembrane transport (GO:0071805)	110	15	1.28	+	11.72	1.59E-11	2.72E-09
+potassium ion transport (GO:0006813)	111	15	1.29	+	11.61	1.79E-11	2.84E-09
+sodium ion transmembrane transport (GO:0035725)	77	10	.90	+	11.16	6.26E-08	3.09E-06
+regulation of trans-synaptic signaling (GO:0099177)	86	11	1.00	+	10.99	1.57E-08	8.92E-07
+modulation of chemical synaptic transmission (GO:0050804)	86	11	1.00	+	10.99	1.57E-08	8.70E-07
+regulated exocytosis (GO:0045055)	57	7	.66	+	10.55	8.73E-06	3.28E-04
+synapse organization (GO:0050808)	74	9	.86	+	10.45	4.80E-07	2.13E-05
+synaptic transmission, glutamatergic (GO:0035249)	44	5	.51	+	9.76	2.44E-04	6.78E-03
+chemical synaptic transmission (GO:0007268)	248	28	2.89	+	9.70	1.64E-18	1.82E-15
+anterograde trans-synaptic signaling (GO:0098916)	248	28	2.89	+	9.70	1.64E-18	1.21E-15
+trans-synaptic signaling (GO:0099537)	249	28	2.90	+	9.66	1.81E-18	1.00E-15
+regulation of membrane potential (GO:0042391)	116	13	1.35	+	9.63	3.29E-09	2.60E-07
+sodium ion transport (GO:0006814)	91	10	1.06	+	9.44	2.61E-07	1.18E-05
+negative regulation of locomotion (GO:0040013)	37	4	.43	+	9.29	1.24E-03	2.78E-02
+synaptic signaling (GO:0099536)	268	28	3.12	+	8.98	1.05E-17	4.67E-15
+export from cell (GO:0140352)	178	17	2.07	+	8.21	1.20E-10	1.27E-08
+secretion by cell (GO:0032940)	159	14	1.85	+	7.57	1.41E-08	8.47E-07
+cell junction organization (GO:0034330)	163	14	1.90	+	7.38	1.89E-08	1.02E-06
+cell-cell signaling (GO:0007267)	419	35	4.88	+	7.18	5.01E-19	1.11E-15
+cell-cell adhesion via plasma-membrane adhesion molecules (GO:0098742)	63	5	.73	+	6.82	1.12E-03	2.56E-02
+vesicle fusion to plasma membrane (GO:0099500)	115	9	1.34	+	6.72	1.38E-05	5.01E-04
+exocytic process (GO:0140029)	115	9	1.34	+	6.72	1.38E-05	4.93E-04
+exocytosis (GO:0006887)	115	9	1.34	+	6.72	1.38E-05	4.85E-04
+metal ion transport (GO:0030001)	317	24	3.69	+	6.51	1.68E-12	4.13E-10
+secretion (GO:0046903)	188	14	2.19	+	6.40	9.95E-08	4.80E-06
+inorganic cation transmembrane transport (GO:0098662)	310	23	3.61	+	6.38	7.31E-12	1.62E-09
+regulation of secretion by cell (GO:1903530)	82	6	.95	+	6.29	5.39E-04	1.36E-02
+regulation of neuron projection development (GO:0010975)	70	5	.81	+	6.14	1.74E-03	3.78E-02
+cation transmembrane transport (GO:0098655)	343	24	3.99	+	6.01	7.97E-12	1.61E-09
+ion transmembrane transport (GO:0034220)	433	30	5.04	+	5.95	2.09E-14	6.62E-12
+regulation of plasma membrane bounded cell projection organization (GO:0120035)	87	6	1.01	+	5.93	7.23E-04	1.73E-02
+inorganic ion transmembrane transport (GO:0098660)	335	23	3.90	+	5.90	3.17E-11	4.69E-09
+regulation of cell projection organization (GO:0031344)	89	6	1.04	+	5.79	8.08E-04	1.87E-02
+cell junction assembly (GO:0034329)	104	7	1.21	+	5.78	3.02E-04	8.07E-03
+cell surface receptor signaling pathway involved in cell-cell signaling (GO:1905114)	125	8	1.45	+	5.50	1.56E-04	4.63E-03
+vesicle fusion (GO:0006906)	147	9	1.71	+	5.26	8.41E-05	2.67E-03
+organelle membrane fusion (GO:0090174)	148	9	1.72	+	5.23	8.84E-05	2.76E-03
+cell morphogenesis involved in neuron differentiation (GO:0048667)	153	9	1.78	+	5.05	1.12E-04	3.46E-03
+regulation of locomotion (GO:0040012)	119	7	1.38	+	5.05	6.49E-04	1.57E-02
+cation transport (GO:0006812)	429	25	4.99	+	5.01	1.16E-10	1.28E-08
+regulation of anatomical structure morphogenesis (GO:0022603)	104	6	1.21	+	4.96	1.73E-03	3.80E-02
+regulation of secretion (GO:0051046)	108	6	1.26	+	4.77	2.07E-03	4.38E-02
+organelle fusion (GO:0048284)	162	9	1.89	+	4.77	1.69E-04	4.88E-03
+neuron projection development (GO:0031175)	217	12	2.53	+	4.75	1.48E-05	5.15E-04
+cell morphogenesis (GO:0000902)	237	13	2.76	+	4.71	7.11E-06	2.72E-04
+ion transport (GO:0006811)	606	33	7.05	+	4.68	5.71E-13	1.59E-10
+regulation of cell migration (GO:0030334)	111	6	1.29	+	4.64	2.36E-03	4.94E-02
+membrane fusion (GO:0061025)	168	9	1.96	+	4.60	2.19E-04	6.15E-03
+transmembrane transport (GO:0055085)	560	30	6.52	+	4.60	1.04E-11	1.92E-09
+cell morphogenesis involved in differentiation (GO:0000904)	172	9	2.00	+	4.50	2.59E-04	7.09E-03
+nervous system development (GO:0007399)	483	25	5.62	+	4.45	1.19E-09	1.02E-07
+neuron projection morphogenesis (GO:0048812)	175	9	2.04	+	4.42	2.92E-04	7.90E-03
+cell projection morphogenesis (GO:0048858)	176	9	2.05	+	4.39	3.04E-04	8.03E-03
+plasma membrane bounded cell projection morphogenesis (GO:0120039)	176	9	2.05	+	4.39	3.04E-04	7.94E-03
+neuron development (GO:0048666)	235	12	2.73	+	4.39	3.14E-05	1.02E-03
+cell part morphogenesis (GO:0032990)	177	9	2.06	+	4.37	3.16E-04	8.16E-03
+axon development (GO:0061564)	138	7	1.61	+	4.36	1.48E-03	3.28E-02
+cellular component morphogenesis (GO:0032989)	200	10	2.33	+	4.30	1.69E-04	4.93E-03
+neuron differentiation (GO:0030182)	308	15	3.58	+	4.18	5.57E-06	2.29E-04
+neurogenesis (GO:0022008)	354	17	4.12	+	4.13	1.58E-06	6.86E-05
+regulation of biological quality (GO:0065008)	876	42	10.19	+	4.12	1.76E-14	6.51E-12
+generation of neurons (GO:0048699)	336	16	3.91	+	4.09	3.56E-06	1.52E-04
+anatomical structure morphogenesis (GO:0009653)	483	19	5.62	+	3.38	6.30E-06	2.54E-04
+regulation of cell communication (GO:0010646)	790	31	9.19	+	3.37	6.74E-09	4.82E-07
+regulation of signaling (GO:0023051)	791	31	9.21	+	3.37	6.93E-09	4.81E-07
+multicellular organism development (GO:0007275)	979	36	11.39	+	3.16	1.91E-09	1.57E-07
+regulation of localization (GO:0032879)	426	15	4.96	+	3.03	1.96E-04	5.57E-03
+system development (GO:0048731)	879	30	10.23	+	2.93	2.30E-07	1.06E-05
+plasma membrane bounded cell projection organization (GO:0120036)	420	14	4.89	+	2.86	5.40E-04	1.35E-02
+cell projection organization (GO:0030030)	425	14	4.95	+	2.83	6.04E-04	1.49E-02
+regulation of intracellular signal transduction (GO:1902531)	403	13	4.69	+	2.77	1.13E-03	2.56E-02
+cell development (GO:0048468)	436	14	5.07	+	2.76	7.68E-04	1.79E-02
+cell differentiation (GO:0030154)	879	27	10.23	+	2.64	6.46E-06	2.56E-04
+cellular developmental process (GO:0048869)	882	27	10.26	+	2.63	6.86E-06	2.67E-04
+developmental process (GO:0032502)	1430	43	16.64	+	2.58	1.52E-08	8.86E-07
+anatomical structure development (GO:0048856)	1281	38	14.91	+	2.55	1.65E-07	7.78E-06
+regulation of signal transduction (GO:0009966)	710	21	8.26	+	2.54	1.20E-04	3.60E-03
+multicellular organismal process (GO:0032501)	1729	50	20.12	+	2.48	3.34E-09	2.55E-07
+transport (GO:0006810)	2059	58	23.96	+	2.42	4.81E-10	4.64E-08
+establishment of localization (GO:0051234)	2090	58	24.32	+	2.38	6.42E-10	5.93E-08
+signaling (GO:0023052)	2579	69	30.01	+	2.30	3.74E-11	5.18E-09
+cell communication (GO:0007154)	2584	69	30.07	+	2.29	4.00E-11	5.23E-09
+localization (GO:0051179)	2569	68	29.90	+	2.27	8.17E-11	1.01E-08
+cellular component assembly (GO:0022607)	867	21	10.09	+	2.08	1.84E-03	3.96E-02
+cellular component organization (GO:0016043)	2624	55	30.54	+	1.80	1.69E-05	5.78E-04
+signal transduction (GO:0007165)	2403	49	27.97	+	1.75	1.15E-04	3.50E-03
+cellular component organization or biogenesis (GO:0071840)	2745	55	31.95	+	1.72	5.87E-05	1.89E-03
+biological regulation (GO:0065007)	5860	114	68.20	+	1.67	1.00E-09	8.88E-08
+regulation of cellular process (GO:0050794)	5176	92	60.24	+	1.53	1.09E-05	4.03E-04
+regulation of biological process (GO:0050789)	5406	93	62.91	+	1.48	3.00E-05	9.93E-04
+cellular process (GO:0009987)	10403	173	121.07	+	1.43	8.34E-11	9.75E-09
+biological_process (GO:0008150)	11560	179	134.53	+	1.33	2.25E-08	1.19E-06
+Unclassified (UNCLASSIFIED)	10437	77	121.47	-	.63	2.25E-08	1.16E-06
