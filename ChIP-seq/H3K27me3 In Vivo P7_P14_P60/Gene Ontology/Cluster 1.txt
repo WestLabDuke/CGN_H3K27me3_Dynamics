@@ -1,0 +1,35 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.6799722 Released 2022-07-01
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Mus musculus - REFLIST (21997)	upload_1 (201)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+regulation of neuron projection arborization (GO:0150011)	13	4	.12	+	33.67	1.42E-05	2.48E-02
+regulation of neural precursor cell proliferation (GO:2000177)	124	8	1.13	+	7.06	2.77E-05	2.73E-02
+sensory organ development (GO:0007423)	616	17	5.63	+	3.02	6.81E-05	4.88E-02
+neuron projection development (GO:0031175)	747	20	6.83	+	2.93	2.33E-05	2.62E-02
+cell morphogenesis (GO:0000902)	785	21	7.17	+	2.93	1.46E-05	2.09E-02
+central nervous system development (GO:0007417)	913	23	8.34	+	2.76	1.43E-05	2.25E-02
+neuron development (GO:0048666)	921	22	8.42	+	2.61	4.83E-05	3.80E-02
+positive regulation of cell population proliferation (GO:0008284)	1013	24	9.26	+	2.59	2.44E-05	2.56E-02
+cell projection organization (GO:0030030)	1225	29	11.19	+	2.59	3.24E-06	8.51E-03
+plasma membrane bounded cell projection organization (GO:0120036)	1174	27	10.73	+	2.52	1.22E-05	2.40E-02
+neurogenesis (GO:0022008)	1396	32	12.76	+	2.51	1.84E-06	7.24E-03
+animal organ morphogenesis (GO:0009887)	1057	24	9.66	+	2.48	4.72E-05	3.91E-02
+generation of neurons (GO:0048699)	1226	27	11.20	+	2.41	3.38E-05	3.13E-02
+nervous system development (GO:0007399)	2038	41	18.62	+	2.20	2.01E-06	6.34E-03
+regulation of cell population proliferation (GO:0042127)	1745	33	15.95	+	2.07	6.94E-05	4.75E-02
+multicellular organism development (GO:0007275)	4559	75	41.66	+	1.80	1.04E-07	1.64E-03
+animal organ development (GO:0048513)	3306	54	30.21	+	1.79	1.65E-05	2.17E-02
+system development (GO:0048731)	3813	62	34.84	+	1.78	3.47E-06	7.82E-03
+anatomical structure development (GO:0048856)	5341	81	48.80	+	1.66	5.79E-07	4.56E-03
+developmental process (GO:0032502)	5724	84	52.30	+	1.61	1.51E-06	7.94E-03
+cellular component organization (GO:0016043)	5412	76	49.45	+	1.54	3.55E-05	3.11E-02
+sensory perception of smell (GO:0007608)	1133	0	10.35	-	 < 0.01	6.13E-05	4.60E-02
+sensory perception of chemical stimulus (GO:0007606)	1235	0	11.28	-	 < 0.01	1.66E-05	2.01E-02

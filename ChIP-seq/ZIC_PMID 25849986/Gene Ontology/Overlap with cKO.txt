@@ -1,0 +1,31 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)
+Annotation Version and Release Date:	PANTHER version 17.0 Released 2022-02-22
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	Mus musculus - REFLIST (21997)	upload_1 (103)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+regulation of synaptic plasticity (GO:0048167)	25	3	.12	+	25.63	2.96E-04	4.69E-02
+calcium-ion regulated exocytosis (GO:0017156)	26	3	.12	+	24.64	3.29E-04	4.56E-02
+negative regulation of MAPK cascade (GO:0043409)	27	3	.13	+	23.73	3.64E-04	4.49E-02
+axon guidance (GO:0007411)	96	5	.45	+	11.12	1.11E-04	4.92E-02
+neuron projection guidance (GO:0097485)	96	5	.45	+	11.12	1.11E-04	4.10E-02
+potassium ion transmembrane transport (GO:0071805)	110	5	.52	+	9.71	2.04E-04	5.03E-02
+potassium ion transport (GO:0006813)	111	5	.52	+	9.62	2.12E-04	4.71E-02
+taxis (GO:0042330)	179	6	.84	+	7.16	2.32E-04	4.67E-02
+chemotaxis (GO:0006935)	179	6	.84	+	7.16	2.32E-04	4.28E-02
+cellular component morphogenesis (GO:0032989)	200	6	.94	+	6.41	4.12E-04	4.81E-02
+cell-cell signaling (GO:0007267)	419	11	1.96	+	5.61	5.33E-06	1.18E-02
+anatomical structure morphogenesis (GO:0009653)	483	11	2.26	+	4.86	1.95E-05	2.17E-02
+regulation of cell communication (GO:0010646)	790	13	3.70	+	3.51	9.16E-05	6.78E-02
+regulation of signaling (GO:0023051)	791	13	3.70	+	3.51	9.28E-05	5.15E-02
+signaling (GO:0023052)	2579	26	12.08	+	2.15	1.54E-04	4.27E-02
+cell communication (GO:0007154)	2584	25	12.10	+	2.07	3.49E-04	4.55E-02
+regulation of cellular process (GO:0050794)	5176	41	24.24	+	1.69	2.60E-04	4.44E-02
+biological regulation (GO:0065007)	5860	46	27.44	+	1.68	1.18E-04	3.74E-02
+regulation of biological process (GO:0050789)	5406	42	25.31	+	1.66	3.24E-04	4.80E-02

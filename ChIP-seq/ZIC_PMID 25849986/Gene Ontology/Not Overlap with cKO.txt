@@ -1,0 +1,13 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)
+Annotation Version and Release Date:	PANTHER version 17.0 Released 2022-02-22
+Analyzed List:	upload_1 (Mus musculus)
+Reference List:	Mus musculus (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	Mus musculus - REFLIST (21997)	upload_1 (37)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+cell-cell signaling (GO:0007267)	419	7	.70	+	9.93	6.00E-06	1.33E-02

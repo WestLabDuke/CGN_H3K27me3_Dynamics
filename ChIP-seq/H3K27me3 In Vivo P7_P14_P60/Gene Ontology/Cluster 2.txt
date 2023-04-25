@@ -1,0 +1,159 @@
+Analysis Type:	PANTHER Overrepresentation Test (Released 20221013)						
+Annotation Version and Release Date:	PANTHER version 17.0 Released 2022-02-22						
+Analyzed List:	upload_1 (Mus musculus)						
+Reference List:	Mus musculus (all genes in database)						
+Test Type:	FISHER						
+Correction:	FDR						
+PANTHER GO-Slim Biological Process	Mus musculus - REFLIST (21997)	upload_1 (604)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+dendritic spine morphogenesis (GO:0060997)	8	3	0.22	+	13.66	2.67E-03	3.98E-02
+circadian regulation of gene expression (GO:0032922)	17	4	0.47	+	8.57	2.10E-03	3.24E-02
+calcium-ion regulated exocytosis (GO:0017156)	26	6	0.71	+	8.4	1.78E-04	4.08E-03
+anterior/posterior pattern specification (GO:0009952)	36	8	0.99	+	8.09	1.88E-05	5.58E-04
+circadian rhythm (GO:0007623)	24	5	0.66	+	7.59	9.36E-04	1.73E-02
+calcium ion import (GO:0070509)	30	6	0.82	+	7.28	3.50E-04	7.12E-03
+rhythmic process (GO:0048511)	26	5	0.71	+	7	1.28E-03	2.17E-02
+negative regulation of MAPK cascade (GO:0043409)	27	5	0.74	+	6.74	1.49E-03	2.41E-02
+sodium ion transmembrane transport (GO:0035725)	77	14	2.11	+	6.62	1.31E-07	4.94E-06
+pattern specification process (GO:0007389)	59	10	1.62	+	6.17	1.42E-05	4.32E-04
+regulation of cation transmembrane transport (GO:1904062)	71	11	1.95	+	5.64	1.14E-05	3.56E-04
+sodium ion transport (GO:0006814)	91	14	2.5	+	5.6	8.00E-07	2.82E-05
+regulation of cation channel activity (GO:2001257)	39	6	1.07	+	5.6	1.19E-03	2.07E-02
+regulation of transmembrane transporter activity (GO:0022898)	60	9	1.65	+	5.46	8.90E-05	2.22E-03
+regulation of ion transmembrane transporter activity (GO:0032412)	60	9	1.65	+	5.46	8.90E-05	2.20E-03
+regulation of transporter activity (GO:0032409)	60	9	1.65	+	5.46	8.90E-05	2.17E-03
+regulation of ion transmembrane transport (GO:0034765)	92	13	2.53	+	5.15	4.59E-06	1.52E-04
+regulated exocytosis (GO:0045055)	57	8	1.57	+	5.11	3.28E-04	6.74E-03
+regulation of transmembrane transport (GO:0034762)	96	13	2.64	+	4.93	6.97E-06	2.21E-04
+regulation of ion transport (GO:0043269)	120	16	3.29	+	4.86	7.49E-07	2.68E-05
+neurotransmitter secretion (GO:0007269)	45	6	1.24	+	4.86	2.31E-03	3.51E-02
+signal release from synapse (GO:0099643)	45	6	1.24	+	4.86	2.31E-03	3.48E-02
+calcium ion transmembrane transport (GO:0070588)	68	9	1.87	+	4.82	2.10E-04	4.61E-03
+regulation of metal ion transport (GO:0010959)	69	9	1.89	+	4.75	2.32E-04	4.99E-03
+neurotransmitter transport (GO:0006836)	54	7	1.48	+	4.72	1.18E-03	2.07E-02
+regulation of neurotransmitter levels (GO:0001505)	55	7	1.51	+	4.64	1.29E-03	2.16E-02
+regulation of exocytosis (GO:0017157)	55	7	1.51	+	4.64	1.29E-03	2.15E-02
+calcium ion transport (GO:0006816)	90	11	2.47	+	4.45	8.18E-05	2.06E-03
+synapse organization (GO:0050808)	74	9	2.03	+	4.43	3.71E-04	7.49E-03
+chemical synaptic transmission (GO:0007268)	248	28	6.81	+	4.11	1.74E-09	1.14E-07
+anterograde trans-synaptic signaling (GO:0098916)	248	28	6.81	+	4.11	1.74E-09	1.10E-07
+trans-synaptic signaling (GO:0099537)	249	28	6.84	+	4.1	1.89E-09	1.17E-07
+regulation of secretion by cell (GO:1903530)	82	9	2.25	+	4	7.33E-04	1.40E-02
+animal organ morphogenesis (GO:0009887)	82	9	2.25	+	4	7.33E-04	1.39E-02
+signal release (GO:0023061)	74	8	2.03	+	3.94	1.56E-03	2.49E-02
+synaptic signaling (GO:0099536)	268	28	7.36	+	3.8	8.28E-09	4.37E-07
+vesicle fusion to plasma membrane (GO:0099500)	115	12	3.16	+	3.8	1.57E-04	3.74E-03
+exocytic process (GO:0140029)	115	12	3.16	+	3.8	1.57E-04	3.70E-03
+exocytosis (GO:0006887)	115	12	3.16	+	3.8	1.57E-04	3.66E-03
+inorganic cation transmembrane transport (GO:0098662)	310	30	8.51	+	3.52	1.22E-08	6.14E-07
+positive regulation of GTPase activity (GO:0043547)	114	11	3.13	+	3.51	5.37E-04	1.06E-02
+regulation of anatomical structure morphogenesis (GO:0022603)	104	10	2.86	+	3.5	9.74E-04	1.79E-02
+negative regulation of intracellular signal transduction (GO:1902532)	94	9	2.58	+	3.49	1.77E-03	2.77E-02
+export from cell (GO:0140352)	178	17	4.89	+	3.48	2.07E-05	6.05E-04
+generation of neurons (GO:0048699)	336	32	9.23	+	3.47	5.64E-09	3.05E-07
+regulation of membrane potential (GO:0042391)	116	11	3.19	+	3.45	6.15E-04	1.19E-02
+metal ion transport (GO:0030001)	317	30	8.7	+	3.45	1.93E-08	8.95E-07
+secretion by cell (GO:0032940)	159	15	4.37	+	3.44	7.12E-05	1.84E-03
+neuron differentiation (GO:0030182)	308	29	8.46	+	3.43	3.70E-08	1.64E-06
+cation transmembrane transport (GO:0098655)	343	32	9.42	+	3.4	8.89E-09	4.59E-07
+inorganic ion transmembrane transport (GO:0098660)	335	31	9.2	+	3.37	1.81E-08	8.54E-07
+cell morphogenesis involved in neuron differentiation (GO:0048667)	153	14	4.2	+	3.33	1.65E-04	3.82E-03
+potassium ion transmembrane transport (GO:0071805)	110	10	3.02	+	3.31	1.44E-03	2.35E-02
+neurogenesis (GO:0022008)	354	32	9.72	+	3.29	1.77E-08	8.56E-07
+potassium ion transport (GO:0006813)	111	10	3.05	+	3.28	1.53E-03	2.47E-02
+neuron development (GO:0048666)	235	21	6.45	+	3.25	5.95E-06	1.94E-04
+regulation of GTPase activity (GO:0043087)	135	12	3.71	+	3.24	6.03E-04	1.17E-02
+nervous system development (GO:0007399)	483	42	13.26	+	3.17	3.01E-10	2.68E-08
+neuron projection morphogenesis (GO:0048812)	175	15	4.81	+	3.12	1.90E-04	4.31E-03
+cell projection morphogenesis (GO:0048858)	176	15	4.83	+	3.1	2.01E-04	4.52E-03
+plasma membrane bounded cell projection morphogenesis (GO:0120039)	176	15	4.83	+	3.1	2.01E-04	4.47E-03
+cellular component morphogenesis (GO:0032989)	200	17	5.49	+	3.1	8.00E-05	2.04E-03
+cell part morphogenesis (GO:0032990)	177	15	4.86	+	3.09	2.13E-04	4.64E-03
+cell-cell signaling (GO:0007267)	419	35	11.51	+	3.04	2.40E-08	1.09E-06
+neuron projection development (GO:0031175)	217	18	5.96	+	3.02	6.67E-05	1.74E-03
+small GTPase mediated signal transduction (GO:0007264)	121	10	3.32	+	3.01	2.76E-03	4.09E-02
+vesicle fusion (GO:0006906)	147	12	4.04	+	2.97	1.20E-03	2.07E-02
+cation transport (GO:0006812)	429	35	11.78	+	2.97	4.14E-08	1.80E-06
+axonogenesis (GO:0007409)	135	11	3.71	+	2.97	1.92E-03	2.98E-02
+cell morphogenesis involved in differentiation (GO:0000904)	172	14	4.72	+	2.96	4.99E-04	9.90E-03
+organelle membrane fusion (GO:0090174)	148	12	4.06	+	2.95	1.27E-03	2.17E-02
+ion transmembrane transport (GO:0034220)	433	35	11.89	+	2.94	5.11E-08	2.14E-06
+regulation of transport (GO:0051049)	274	22	7.52	+	2.92	1.72E-05	5.15E-04
+regulation of developmental process (GO:0050793)	250	20	6.86	+	2.91	4.30E-05	1.16E-03
+secretion (GO:0046903)	188	15	5.16	+	2.91	3.88E-04	7.76E-03
+cell junction organization (GO:0034330)	163	13	4.48	+	2.9	9.33E-04	1.74E-02
+axon development (GO:0061564)	138	11	3.79	+	2.9	2.26E-03	3.46E-02
+anatomical structure morphogenesis (GO:0009653)	483	37	13.26	+	2.79	7.59E-08	2.96E-06
+organelle fusion (GO:0048284)	162	12	4.45	+	2.7	2.57E-03	3.86E-02
+membrane fusion (GO:0061025)	168	12	4.61	+	2.6	3.39E-03	4.96E-02
+cell development (GO:0048468)	436	31	11.97	+	2.59	3.70E-06	1.24E-04
+regulation of transcription by RNA polymerase II (GO:0006357)	1332	92	36.57	+	2.52	2.55E-15	2.83E-12
+anatomical structure development (GO:0048856)	1281	87	35.17	+	2.47	5.79E-14	2.57E-11
+cell differentiation (GO:0030154)	879	59	24.14	+	2.44	1.22E-09	8.44E-08
+cellular developmental process (GO:0048869)	882	59	24.22	+	2.44	1.34E-09	9.02E-08
+transcription by RNA polymerase II (GO:0006366)	1377	92	37.81	+	2.43	1.65E-14	1.22E-11
+ion transport (GO:0006811)	606	40	16.64	+	2.4	1.24E-06	4.29E-05
+system development (GO:0048731)	879	58	24.14	+	2.4	2.85E-09	1.71E-07
+regulation of localization (GO:0032879)	426	28	11.7	+	2.39	4.48E-05	1.20E-03
+multicellular organism development (GO:0007275)	979	64	26.88	+	2.38	6.71E-10	5.32E-08
+developmental process (GO:0032502)	1430	93	39.27	+	2.37	5.28E-14	2.93E-11
+transmembrane transport (GO:0055085)	560	36	15.38	+	2.34	6.72E-06	2.16E-04
+plasma membrane bounded cell projection organization (GO:0120036)	420	26	11.53	+	2.25	2.55E-04	5.40E-03
+cell projection organization (GO:0030030)	425	26	11.67	+	2.23	2.83E-04	5.93E-03
+"regulation of transcription, DNA-templated (GO:0006355)"	1659	100	45.55	+	2.2	4.53E-13	1.26E-10
+regulation of nucleic acid-templated transcription (GO:1903506)	1659	100	45.55	+	2.2	4.53E-13	1.12E-10
+regulation of RNA biosynthetic process (GO:2001141)	1659	100	45.55	+	2.2	4.53E-13	1.01E-10
+regulation of cellular macromolecule biosynthetic process (GO:2000112)	1791	106	49.18	+	2.16	2.88E-13	1.07E-10
+regulation of macromolecule biosynthetic process (GO:0010556)	1795	106	49.29	+	2.15	3.08E-13	9.77E-11
+regulation of RNA metabolic process (GO:0051252)	1813	106	49.78	+	2.13	4.62E-13	9.33E-11
+regulation of cellular biosynthetic process (GO:0031326)	1814	106	49.81	+	2.13	4.75E-13	8.78E-11
+regulation of biosynthetic process (GO:0009889)	1820	106	49.97	+	2.12	7.74E-13	1.23E-10
+nucleic acid-templated transcription (GO:0097659)	1725	100	47.37	+	2.11	4.01E-12	4.95E-10
+"transcription, DNA-templated (GO:0006351)"	1725	100	47.37	+	2.11	4.01E-12	4.69E-10
+RNA biosynthetic process (GO:0032774)	1733	100	47.59	+	2.1	6.89E-12	7.65E-10
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	1867	106	51.26	+	2.07	2.76E-12	3.82E-10
+regulation of gene expression (GO:0010468)	2053	115	56.37	+	2.04	6.12E-13	1.05E-10
+nucleobase-containing compound biosynthetic process (GO:0034654)	1951	104	53.57	+	1.94	1.58E-10	1.60E-08
+heterocycle biosynthetic process (GO:0018130)	1979	104	54.34	+	1.91	3.39E-10	2.90E-08
+aromatic compound biosynthetic process (GO:0019438)	1979	104	54.34	+	1.91	3.39E-10	2.79E-08
+organic cyclic compound biosynthetic process (GO:1901362)	2008	104	55.14	+	1.89	1.02E-09	7.83E-08
+regulation of biological quality (GO:0065008)	876	45	24.05	+	1.87	9.78E-05	2.36E-03
+multicellular organismal process (GO:0032501)	1729	88	47.48	+	1.85	4.98E-08	2.13E-06
+regulation of nitrogen compound metabolic process (GO:0051171)	2350	119	64.53	+	1.84	1.31E-10	1.39E-08
+regulation of primary metabolic process (GO:0080090)	2380	119	65.35	+	1.82	2.67E-10	2.47E-08
+cellular nitrogen compound biosynthetic process (GO:0044271)	2284	114	62.71	+	1.82	1.06E-09	7.83E-08
+regulation of cellular metabolic process (GO:0031323)	2448	122	67.22	+	1.81	1.85E-10	1.79E-08
+cellular macromolecule biosynthetic process (GO:0034645)	2260	111	62.06	+	1.79	3.36E-09	1.96E-07
+macromolecule biosynthetic process (GO:0009059)	2265	111	62.19	+	1.78	4.97E-09	2.76E-07
+regulation of macromolecule metabolic process (GO:0060255)	2525	122	69.33	+	1.76	1.16E-09	8.27E-08
+intracellular signal transduction (GO:0035556)	835	40	22.93	+	1.74	1.19E-03	2.08E-02
+regulation of metabolic process (GO:0019222)	2648	125	72.71	+	1.72	3.53E-09	2.01E-07
+RNA metabolic process (GO:0016070)	2346	110	64.42	+	1.71	6.02E-08	2.47E-06
+regulation of molecular function (GO:0065009)	755	35	20.73	+	1.69	3.35E-03	4.93E-02
+organic substance biosynthetic process (GO:1901576)	2708	122	74.36	+	1.64	6.65E-08	2.69E-06
+cellular biosynthetic process (GO:0044249)	2666	120	73.2	+	1.64	1.08E-07	4.14E-06
+biosynthetic process (GO:0009058)	2713	122	74.49	+	1.64	6.95E-08	2.75E-06
+biological regulation (GO:0065007)	5860	255	160.91	+	1.58	4.79E-16	1.06E-12
+nucleic acid metabolic process (GO:0090304)	2613	112	71.75	+	1.56	3.27E-06	1.12E-04
+regulation of cellular process (GO:0050794)	5176	221	142.12	+	1.55	1.51E-12	2.23E-10
+regulation of biological process (GO:0050789)	5406	227	148.44	+	1.53	3.21E-12	4.19E-10
+gene expression (GO:0010467)	2942	120	80.78	+	1.49	1.30E-05	4.01E-04
+nucleobase-containing compound metabolic process (GO:0006139)	2857	116	78.45	+	1.48	2.34E-05	6.74E-04
+heterocycle metabolic process (GO:0046483)	2904	117	79.74	+	1.47	2.72E-05	7.64E-04
+organic cyclic compound metabolic process (GO:1901360)	2982	120	81.88	+	1.47	2.50E-05	7.11E-04
+cellular aromatic compound metabolic process (GO:0006725)	2914	117	80.01	+	1.46	3.57E-05	9.77E-04
+cellular nitrogen compound metabolic process (GO:0034641)	3200	126	87.87	+	1.43	3.40E-05	9.45E-04
+cellular macromolecule metabolic process (GO:0044260)	3849	146	105.69	+	1.38	4.73E-05	1.25E-03
+signaling (GO:0023052)	2579	97	70.81	+	1.37	1.72E-03	2.73E-02
+cell communication (GO:0007154)	2584	97	70.95	+	1.37	1.75E-03	2.76E-02
+cellular process (GO:0009987)	10403	356	285.65	+	1.25	1.73E-08	8.52E-07
+biological_process (GO:0008150)	11560	380	317.42	+	1.2	4.34E-07	1.58E-05
+Unclassified (UNCLASSIFIED)	10437	224	286.58	-	0.78	4.34E-07	1.60E-05
+immune response (GO:0006955)	824	7	22.63	-	0.31	2.52E-04	5.38E-03
+response to external biotic stimulus (GO:0043207)	500	3	13.73	-	0.22	1.12E-03	2.04E-02
+response to other organism (GO:0051707)	500	3	13.73	-	0.22	1.12E-03	2.03E-02
+biological process involved in interspecies interaction between organisms (GO:0044419)	500	3	13.73	-	0.22	1.12E-03	2.01E-02
+response to biotic stimulus (GO:0009607)	501	3	13.76	-	0.22	1.13E-03	2.00E-02
+defense response (GO:0006952)	559	3	15.35	-	0.2	2.89E-04	5.99E-03
+defense response to other organism (GO:0098542)	430	2	11.81	-	0.17	1.29E-03	2.16E-02
+response to bacterium (GO:0009617)	356	1	9.78	-	0.1	1.31E-03	2.16E-02
+defense response to bacterium (GO:0042742)	297	0	8.16	-	 < 0.01	7.40E-04	1.39E-02
