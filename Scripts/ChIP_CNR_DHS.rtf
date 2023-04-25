@@ -1,0 +1,134 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2706
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww20560\viewh16380\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 library(Rsubread)\
+library(tidyverse)\
+library(DESeq2)\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 library("RColorBrewer")\
+library("pheatmap")\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 library(ChIPseeker)\
+library(TxDb.Mmusculus.UCSC.mm10.knownGene)\
+txdb <- TxDb.Mmusculus.UCSC.mm10.knownGene\
+\
+# Reading in consensus bed file\
+all_bpeak_sites_filt <- read_delim(\'93/Path/k27me3_broad_peak_sites_filt.bed", "\\t", escape_double = FALSE, col_names = FALSE, trim_ws = TRUE)\
+\
+# formatting as gtf for RSubreads (geneID, Chr, Start, End, Strand)\
+colnames(all_bpeak_sites_filt) = c("Chr", "Start", "End")\
+\
+peakID = paste0("peak", 1:nrow(all_bpeak_sites_filt))\
+\
+all_bpeak_sites_filt = data.frame(GeneID = peakID,\
+                                 all_bpeak_sites_filt,\
+                                 Strand = rep("",nrow(all_bpeak_sites_filt))\
+)\
+\
+\
+# Importing the sample sheet\
+dir <- \'93/Path/BAM"\
+setwd(dir)\
+sampleFiles=grep('.bam',list.files(dir, full.names=TRUE),value=TRUE)\
+sampleFiles\
+sampleNames=c("p14_1", "p14_2", "p14_3", "p60_1", "p60_2", "p60_3", "p7_1", "p7_2","p7_3")\
+sampleCondition=c("p14", "p14", "p14", "p60", "p60", "p60", "p7", "p7", "p7")\
+sampleTable=data.frame(sampleName=sampleNames, fileName=sampleFiles, condition=sampleCondition)\
+sampleTable\
+\
+# Using Rsubread to get counts\
+Peak_counts = featureCounts(sampleFiles, \
+                            annot.ext = all_bpeak_sites_filt,\
+                            nthreads = 8)\
+\
+\
+# Extract counts and format for DESeq\
+counts <- as.data.frame(Peak_counts$counts) \
+colnames(counts) = c("p14_1", "p14_2", "p14_3", "p60_1", "p60_2", "p60_3", "p7_1", "p7_2","p7_3")\
+\
+# Setting up DESeq2\
+dds_b<-DESeqDataSetFromMatrix(countData = counts, \
+                            colData = sampleTable,\
+                            design = ~condition)\
+\
+dds <- DESeq(dds_b)\
+\
+res_1 <- results(dds, contrast=c("condition","p14", "p7"))\
+res_2 <- results(dds, contrast=c("condition","p60", "p14"))\
+res_3 <- results(dds, contrast=c("condition","p60", "p7"))\
+\
+# Make PCA Plot\
+vsd <- vst(dds, blind =FALSE)\
+mat <-assay(vsd)       \
+mat.pca<-prcomp(t(mat))\
+scores <-as.data.frame(mat.pca$x)\
+\
+pcaPlt = ggplot(scores,aes(x=PC1,y=PC2,color=sampleTable$condition))+\
+  geom_point(size = 3)+ \
+  labs(color='', x = paste0("PCA (", round(summary(mat.pca)$importance[2]*100,2), "%)"), y = paste0("PCA (", round(summary(mat.pca)$importance[5]*100,2), "%)")) \
+pcaPlt\
+\
+# Sample to Sample Distances\
+sampleDists <- dist(t(assay(vsd)))\
+sampleDistMatrix <- as.matrix(sampleDists)\
+rownames(sampleDistMatrix) <- paste(vsd$condition)\
+colnames(sampleDistMatrix) <- NULL\
+colors <- colorRampPalette( rev(brewer.pal(9, "Blues")) )(255)\
+pheatmap(sampleDistMatrix,\
+         clustering_distance_rows=sampleDists,\
+         clustering_distance_cols=sampleDists,\
+         col=colors)\
+\
+\
+# Make Dataframe from Results\
+de_1 <- data.frame(res_1@listData)\
+de_1 <- data.frame(res_1@rownames,log_mean_counts=log10(de_1$baseMean),de_1)\
+\
+de_1$logpadj <- -log10(de_1$padj)\
+de_1\
+de_1$significant <- ifelse((de_1$padj <= 0.05 & de_1$log2FoldChange > 2 | de_1$padj <= 0.05 & de_1$log2FoldChange < -2), "Sig", "Not Sig")\
+\
+\
+# Generate MA Plot\
+de_1$change <- ifelse((de_1$significant=="Sig" & de_1$log2FoldChange > 2), "Up", ifelse((de_1$significant=="Sig" & de_1$log2FoldChange < -2), "Down", "Unchanged"))\
+g <- ggplot(de_1,aes(x=baseMean, y=log2FoldChange, color=change, face="bold")) +\
+  geom_point(size=0.75) +\
+  geom_hline(yintercept=c(-2,2), linetype="dashed", color="black") + scale_x_log10() + \
+  scale_colour_manual(name="Peaks", values = c("blue", "grey","red3")) + \
+  labs(y=("Log2(P14/P7)"), x=("Average Signal per ChIP peak")) + ggtitle("H3K27me3 Enrichment",subtitle="P7 v P14 Cerebellum") + \
+  theme(plot.title = element_text(hjust=1.0), \
+        axis.title.x = element_text(face="bold", size=13), \
+        axis.title.y = element_text(face="bold", size=13),\
+        axis.text = element_text(face="bold", size=12),\
+        panel.background = element_blank(),\
+        panel.grid.major = element_blank(), \
+        panel.grid.minor = element_blank(),\
+        legend.position = "none",\
+        axis.line = element_line(colour = "black"),\
+        panel.border = element_rect(colour = "black", fill=NA, size=1)) + ylim(-10,10)\
+g\
+\
+\
+write.csv(de_1, file="090521_P14_P7_MA.csv")\
+\
+# Annotating Peaks\
+peaks <- as.data.frame(Peak_counts$annotation) \
+GRanges <- makeGRangesFromDataFrame(peaks, ignore.strand=FALSE, seqinfo=NULL, seqnames.field=c("seqnames","seqname","chromosome","chrom","Chr","chromosome_name","seqid","Gene_ID"),\
+                                    start.field="Start", end.field=c("End","Stop"), strand.field="Strand")\
+\
+peakAnno <- annotatePeak(GRanges, tssRegion=c(-3000,3000), TxDb=txdb, annoDb="org.Mm.eg.db")\
+Anno <- as.data.frame(peakAnno)\
+symbol <- Anno$SYMBOL\
+\
+# Generating VST Counts for Heatmap\
+deseq2VST <- vst(dds)\
+deseq2VST <- assay(deseq2VST)\
+deseq2VST <- as.data.frame(deseq2VST)\
+deseq2VST$Gene <- symbol\
+\
+\
+}
